@@ -1,5 +1,11 @@
 h2 {
   color: red; }
 
-h3 {
-  color: magenta; }
+/* variables */
+/* global styles */
+.caps {
+  text-transform: uppercase; }
+
+/* component (BEM pattern) */
+.rbcomponent__header {
+  color: #5abfeb; }

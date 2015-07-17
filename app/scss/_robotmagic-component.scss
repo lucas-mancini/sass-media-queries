@@ -1,4 +1,18 @@
 
-h3 {
-    color: magenta;
+/* variables */
+$card-primary: #5abfeb;
+$card-background: #202020;
+
+/* global styles */
+.caps {
+    text-transform: uppercase;
+}
+
+/* component (BEM pattern) */
+.rbcomponent {
+
+    &__header {
+        color: $card-primary;
+    }
+
 }
