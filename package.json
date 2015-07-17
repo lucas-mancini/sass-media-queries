@@ -1,0 +1,25 @@
+{
+  "name": "sass-media-queries",
+  "version": "0.0.1",
+  "description": "Simple responsive page, mobile-first approach, with SASS mixins for the media queries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-mancini/sass-media-queries.git"
+  },
+  "keywords": [
+    "sass",
+    "responsive",
+    "media-queries",
+    "css"
+  ],
+  "author": "Lucas Mancini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas-mancini/sass-media-queries/issues"
+  },
+  "homepage": "https://github.com/lucas-mancini/sass-media-queries#readme"
+}
