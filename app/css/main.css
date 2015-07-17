@@ -14,14 +14,14 @@
   margin: 40px 40px 40px 30px;
   font-family: Sans-Serif;
   font-size: 17px;
-  line-height: 1.25;
+  line-height: 1.35;
   color: #bababa; }
   .rbcomponent--primary-color {
     color: #5abfeb; }
   .rbcomponent--secondary-color {
     color: #fff; }
   .rbcomponent__card {
-    margin-bottom: 20px; }
+    margin-bottom: 12px; }
   .rbcomponent__header {
     margin: 0 0 20px 0;
     font-size: 24px; }
@@ -40,7 +40,7 @@ body {
   background-color: #333; }
 
 p {
-  margin: 0 0 15px 0; }
+  margin: 0 0 12px 0; }
 
 .caps {
   text-transform: uppercase; }
