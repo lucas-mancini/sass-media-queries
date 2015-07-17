@@ -24,6 +24,7 @@
   "homepage": "https://github.com/lucas-mancini/sass-media-queries#readme",
   "devDependencies": {
     "browser-sync": "^2.7.13",
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
   }
 }
