@@ -4,8 +4,17 @@
 @import 'robotmagic-component';
 
 /* global styles */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: $page-background;
+    margin: 0;
 }
 
 p {

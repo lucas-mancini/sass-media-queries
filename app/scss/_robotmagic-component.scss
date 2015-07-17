@@ -7,8 +7,11 @@ $card-copywrite: #bababa;
 $card-background: #202020;
 $page-background: #333;
 
-$font-size-copywrite: 17px;
-$font-size-header: 24px;
+$font-size-copywrite-mobile: 18px;
+$font-size-header-mobile: 24px;
+
+$font-size-copywrite-tablet: 16px;
+$font-size-header-tablet: 20px;
 
 /* component (BEM pattern) */
 .rbcomponent {
@@ -16,7 +19,7 @@ $font-size-header: 24px;
     margin: 40px 40px 40px 30px;
 
     font-family: Sans-Serif;
-    font-size: $font-size-copywrite;
+    font-size: $font-size-copywrite-mobile;
     line-height: 1.35;
 
     color: $card-copywrite;
@@ -29,13 +32,9 @@ $font-size-header: 24px;
         color: $card-secondary;
     }
 
-    &__card {
-        margin-bottom: 12px;
-    }
-
     &__header {
         margin: 0 0 20px 0;
-        font-size: $font-size-header;
+        font-size: $font-size-header-mobile;
     }
 
     &__quote-author {
@@ -56,4 +55,34 @@ $font-size-header: 24px;
             font-weight: bold;
         }
     }
+
+    // additional styles for tablet
+    @include mq_tablet {
+
+        margin: 0 15px;
+        display: flex;
+
+        font-size: $font-size-copywrite-tablet;
+
+        &__header {
+            margin: 0 0 20px 0;
+            font-size: $font-size-header-tablet;
+        }
+
+        &__card {
+            width: 50%;
+            padding: 30px 17px 0px 30px;
+            margin: 20px 15px 30px 15px;
+             
+            background-color: $card-background;
+            border-top: 3px solid $card-primary;
+        }
+
+    }
+
+    // additional styles for desktop
+    @include mq_desktop {
+
+    }
+
 }
