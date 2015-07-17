@@ -7,8 +7,17 @@ $card-copywrite: #bababa;
 $card-background: #202020;
 $page-background: #333;
 
+$font-size-copywrite: 17px;
+$font-size-header: 24px;
+
 /* component (BEM pattern) */
 .rbcomponent {
+
+    margin: 40px 40px 40px 30px;
+
+    font-family: Sans-Serif;
+    font-size: $font-size-copywrite;
+    line-height: 1.25;
 
     color: $card-copywrite;
 
@@ -20,4 +29,24 @@ $page-background: #333;
         color: $card-secondary;
     }
 
+    &__card {
+        margin-bottom: 20px;
+    }
+
+    &__header {
+        margin: 0 0 20px 0;
+        font-size: $font-size-header;
+    }
+
+    &__article {
+
+        &-header {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        &-date {
+            font-weight: bold;
+        }
+    }
 }

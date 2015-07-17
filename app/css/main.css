@@ -1,11 +1,25 @@
 /* variables */
 /* component (BEM pattern) */
 .rbcomponent {
+  margin: 40px 40px 40px 30px;
+  font-family: Sans-Serif;
+  font-size: 17px;
+  line-height: 1.25;
   color: #bababa; }
   .rbcomponent--primary-color {
     color: #5abfeb; }
   .rbcomponent--secondary-color {
     color: #fff; }
+  .rbcomponent__card {
+    margin-bottom: 20px; }
+  .rbcomponent__header {
+    margin: 0 0 20px 0;
+    font-size: 24px; }
+  .rbcomponent__article-header {
+    font-weight: bold;
+    margin-right: 10px; }
+  .rbcomponent__article-date {
+    font-weight: bold; }
 
 /* global styles */
 body {
