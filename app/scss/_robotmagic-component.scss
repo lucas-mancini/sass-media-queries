@@ -1,17 +1,30 @@
 
 /* variables */
 $card-primary: #5abfeb;
-$card-background: #202020;
+$card-secondary: #fff;
+$card-copywrite: #bababa; 
 
-/* global styles */
-.caps {
-    text-transform: uppercase;
-}
+$card-background: #202020;
+$page-background: #333;
 
 /* component (BEM pattern) */
 .rbcomponent {
 
+    color: $card-copywrite;
+
     &__header {
+        color: $card-primary;
+    }
+
+    &__quote-author {
+        color: $card-secondary;
+    }
+
+    &__article-header {
+        color: $card-secondary;
+    }
+
+    &__article-date {
         color: $card-primary;
     }
 

@@ -1,8 +1,19 @@
 /* variables */
+/* component (BEM pattern) */
+.rbcomponent {
+  color: #bababa; }
+  .rbcomponent__header {
+    color: #5abfeb; }
+  .rbcomponent__quote-author {
+    color: #fff; }
+  .rbcomponent__article-header {
+    color: #fff; }
+  .rbcomponent__article-date {
+    color: #5abfeb; }
+
 /* global styles */
+body {
+  background-color: #333; }
+
 .caps {
   text-transform: uppercase; }
-
-/* component (BEM pattern) */
-.rbcomponent__header {
-  color: #5abfeb; }

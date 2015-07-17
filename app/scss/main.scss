@@ -1,3 +1,11 @@
 @import 'media-queries';
 @import 'robotmagic-component';
 
+/* global styles */
+body {
+    background-color: $page-background;
+}
+
+.caps {
+    text-transform: uppercase;
+}
