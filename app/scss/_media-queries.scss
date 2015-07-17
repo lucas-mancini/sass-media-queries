@@ -1,4 +1,14 @@
+$tablet-width: 480px;
+$desktop-width: 801px;
 
-h2 {
-    color: red;
+@mixin mq_tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin mq_desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
 }
