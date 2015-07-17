@@ -2,14 +2,10 @@
 /* component (BEM pattern) */
 .rbcomponent {
   color: #bababa; }
-  .rbcomponent__header {
+  .rbcomponent--primary-color {
     color: #5abfeb; }
-  .rbcomponent__quote-author {
+  .rbcomponent--secondary-color {
     color: #fff; }
-  .rbcomponent__article-header {
-    color: #fff; }
-  .rbcomponent__article-date {
-    color: #5abfeb; }
 
 /* global styles */
 body {

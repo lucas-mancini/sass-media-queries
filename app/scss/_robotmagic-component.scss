@@ -12,20 +12,12 @@ $page-background: #333;
 
     color: $card-copywrite;
 
-    &__header {
+    &--primary-color {
         color: $card-primary;
     }
 
-    &__quote-author {
+    &--secondary-color {
         color: $card-secondary;
-    }
-
-    &__article-header {
-        color: $card-secondary;
-    }
-
-    &__article-date {
-        color: $card-primary;
     }
 
 }
