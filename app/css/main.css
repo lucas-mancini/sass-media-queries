@@ -62,7 +62,11 @@
         padding: 20px 17px 10px 20px;
         margin: 26px 15px 20px 15px;
         background-color: #202020;
-        border-top: 3px solid #5abfeb; } }
+        border-top: 3px solid #5abfeb; }
+      .rbcomponent__quote {
+        padding-left: 40px; }
+      .rbcomponent__article-header, .rbcomponent__article-summary {
+        padding-left: 18px; } }
 
 /* global styles */
 html {

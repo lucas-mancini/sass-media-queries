@@ -109,6 +109,15 @@ $font-size-header-desktop: 20px;
             background-color: $card-background;
             border-top: 3px solid $card-primary;
         }
+
+        &__quote {
+            padding-left: 40px;
+        }
+
+        &__article-header, &__article-summary {
+            padding-left: 18px;
+        }
+
     }
 
 }
