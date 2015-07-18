@@ -7,6 +7,3 @@ Dependencies:
 * browser-sync
 * SASS preprocessor (via gulp-sass)
 
-TODO:
-- create mixin with common code from tablet and desktop
-
