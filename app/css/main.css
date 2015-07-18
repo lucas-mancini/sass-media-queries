@@ -9,6 +9,7 @@
   font-style: normal; }
 
 /* variables */
+/* mixins */
 /* component (BEM pattern) */
 .rbcomponent {
   margin: 40px 40px 40px 30px;
@@ -34,7 +35,7 @@
     margin-right: 10px; }
   .rbcomponent__article-date {
     font-weight: bold; }
-  @media (min-width: 480px) and (max-width: 800px) {
+  @media (min-width: 481px) and (max-width: 800px) {
     .rbcomponent {
       margin: 0 15px;
       display: flex;
@@ -44,27 +45,29 @@
         font-size: 20px; }
       .rbcomponent__card {
         width: 50%;
-        padding: 30px 11px 0px 30px;
-        margin: 20px 15px 30px 15px;
         background-color: #202020;
-        border-top: 3px solid #5abfeb; } }
+        border-top: 3px solid #5abfeb; }
+      .rbcomponent__card {
+        padding: 30px 11px 0px 30px;
+        margin: 20px 15px 30px 15px; } }
   @media (min-width: 801px) {
     .rbcomponent {
       margin: 0 125px;
       display: flex;
       font-size: 15px; }
-      .rbcomponent__quote-author {
-        position: relative;
-        right: 15%; }
       .rbcomponent__header {
         margin: 0 0 20px 0;
         font-size: 20px; }
       .rbcomponent__card {
         width: 50%;
-        padding: 20px 17px 10px 20px;
-        margin: 26px 15px 20px 15px;
         background-color: #202020;
         border-top: 3px solid #5abfeb; }
+      .rbcomponent__card {
+        padding: 20px 17px 10px 20px;
+        margin: 26px 15px 20px 15px; }
+      .rbcomponent__quote-author {
+        position: relative;
+        right: 15%; }
       .rbcomponent__quote {
         padding-left: 40px;
         position: relative;

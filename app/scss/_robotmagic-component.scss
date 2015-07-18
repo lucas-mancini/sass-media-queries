@@ -16,6 +16,25 @@ $font-size-header-tablet: 20px;
 $font-size-copywrite-desktop: 15px;
 $font-size-header-desktop: 20px;
 
+/* mixins */
+@mixin card-layout($side-margin, $font-size-copywrite, $font-size-header) {
+    margin: 0 $side-margin;
+    display: flex;
+
+    font-size: $font-size-copywrite;
+
+    &__header {
+        margin: 0 0 20px 0;
+        font-size: $font-size-header;
+    }
+
+    &__card {
+        width: 50%;
+        background-color: $card-background;
+        border-top: 3px solid $card-primary;
+    }
+}
+
 /* component (BEM pattern) */
 .rbcomponent {
 
@@ -66,23 +85,11 @@ $font-size-header-desktop: 20px;
     // additional styles for tablet
     @include mq_tablet {
 
-        margin: 0 15px;
-        display: flex;
-
-        font-size: $font-size-copywrite-tablet;
-
-        &__header {
-            margin: 0 0 20px 0;
-            font-size: $font-size-header-tablet;
-        }
+        @include card-layout(15px, $font-size-copywrite-tablet, $font-size-header-tablet);
 
         &__card {
-            width: 50%;
             padding: 30px 11px 0px 30px;
             margin: 20px 15px 30px 15px;
-             
-            background-color: $card-background;
-            border-top: 3px solid $card-primary;
         }
 
     }
@@ -90,28 +97,16 @@ $font-size-header-desktop: 20px;
     // additional styles for desktop
     @include mq_desktop {
 
-        margin: 0 125px;
-        display: flex;
+        @include card-layout(125px, $font-size-copywrite-desktop, $font-size-header-desktop);
 
-        font-size: $font-size-copywrite-desktop;
+        &__card {
+            padding: 20px 17px 10px 20px;
+            margin: 26px 15px 20px 15px;
+        }
 
         &__quote-author {
             position: relative;
             right: 15%;
-        }
-
-        &__header {
-            margin: 0 0 20px 0;
-            font-size: $font-size-header-desktop;
-        }
-
-        &__card {
-            width: 50%;
-            padding: 20px 17px 10px 20px;
-            margin: 26px 15px 20px 15px;
-             
-            background-color: $card-background;
-            border-top: 3px solid $card-primary;
         }
 
         &__quote {
