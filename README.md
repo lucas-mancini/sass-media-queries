@@ -8,6 +8,5 @@ Dependencies:
 * SASS preprocessor (via gulp-sass)
 
 TODO:
-- inline SVG in html
 - create mixin with common code from tablet and desktop
 
