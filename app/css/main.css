@@ -79,7 +79,7 @@
       .rbcomponent__article {
         padding-left: 18px; }
         .rbcomponent__article:before {
-          content: url("../article-icon.png");
+          content: url("../images/article-icon.png");
           margin: 0 4px 0 -24px; } }
 
 /* global styles */
